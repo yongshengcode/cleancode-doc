@@ -8,6 +8,11 @@ clearly and descriptively = readability and maintainability
 ### Use searchable names
 ### Avoid Mental Mapping
 
+
+## Functions
+
+## do one thing
+
 ## Reusability
 
 quality and consistency = efficiency and productivity
