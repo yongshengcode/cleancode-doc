@@ -4,12 +4,22 @@
 
 clearly and descriptively = readability and maintainability
 
-### Use meaningful and pronounceable variable names
-- Boolean variables are often required to answer specific questions, such as:
+### Use meaningful variable names
+```
+originalAccountList
+modifiedAccountList
+totalAccounts
+```
+### Boolean variables are often required to answer specific questions, such as:
 ```
 isActive
 canSwitchUser
+hasChildren
 ```
+### use constants to instead of hardcoding
+  ```
+  const SESSION_DURATION_MS = 15 * 60 * 1000
+  ```
 ### Use searchable names
 ### Avoid Mental Mapping
 
