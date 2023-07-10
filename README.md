@@ -1,5 +1,18 @@
 # cleancode-doc
 
+- [cleancode-doc](#cleancode-doc)
+  - [Naming](#naming)
+    - [Use meaningful variable names](#use-meaningful-variable-names)
+    - [Boolean variables are often required to answer specific questions, such as:](#boolean-variables-are-often-required-to-answer-specific-questions-such-as)
+    - [Use searchable names](#use-searchable-names)
+    - [Use consistent subfix](#use-consistent-subfix)
+  - [Use Mapping to reduce Switch](#use-mapping-to-reduce-switch)
+  - [Reusability](#reusability)
+  - [Functions](#functions)
+    - [do one thing](#do-one-thing)
+    - [arguments (2 or fewer ideally)](#arguments-2-or-fewer-ideally)
+  - [Class / Enum](#class--enum)
+
 ## Naming
 
 clearly and descriptively = readability and maintainability
