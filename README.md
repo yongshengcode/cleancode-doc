@@ -45,8 +45,35 @@ quality and consistency = efficiency and productivity
 ## Functions
 
 ### do one thing
+**Bad:**
+```
+createFile(name: string, temp: boolean) {
+  if (temp) {
+    fs.create(`./temp/${name}`);
+  } else {
+    fs.create(name);
+  }
+}
+```
+**Good:**
+```
+createTempFile(name: string) {
+  createFile(`./temp/${name}`);
+}
 
+createFile(name: string) {
+  fs.create(name);
+}
+```
 ### arguments (2 or fewer ideally)
-
+**Bad:**
+```
+createMenu(title: string, body: string, buttonText: string, cancellable: boolean) {}
+```
+**Good:**
+```
+Type MenuOptions = { title: string, body: string, buttonText: string, cancellable: boolean }
+createMenu(options: MenuOptions) {}
+```
 ## Class / Enum 
 
